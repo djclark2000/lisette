@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    /* font-family: 'PT Serif', serif; */
+}
+
+
+#name {
+    background: rgb(171,98,255);
+    background: linear-gradient(254deg, rgba(171,98,255,1) 0%, rgba(98,0,255,1) 100%);
+    
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;  
+    padding: 50px 0 ;  
+}
+
+.title-h1 {
+    color: #fff;
+    margin: 0;
+    font-style: italic;
+}
+
+
+.meaning {
+    position: ;
+    color: rgb(210, 210, 210);
+    
+}
+
+.also {
+    background-color: rgb(25, 0, 65);
+    margin: 60px;
+    color: #fff;
+    padding: 5% 10%;
+    border-radius: 50%;
+    /* box-shadow: 5px 5px 10px rgb(55, 55, 55); */
+}
+
+.also h1 {
+    color: #FFC93A;
+    
+}
+
+@media (max-width: 550px) {
+    .also h1 {
+        padding: 0 10%; 
+        font-size: 40px;
+    }
+    .meaning, {
+        font-size: 30px;
+    }
+    /* .title-h1 {
+        font-size: 40px;
+    } */
+}
+
+.alt-meaning {
+    position: ;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+.bottom-div {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 0;
+}
